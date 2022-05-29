@@ -1,4 +1,4 @@
-# microsodt-engage-22-project
+# Microsodt Engage 2022 Project
 
 <h1 align="center">
   <br>
@@ -18,7 +18,7 @@
   <a href="#how-to-use">How To Use</a> •
   <a href="#download">Download</a> •
   <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> •
+  <a href="#Portfolio">Portfolio</a> •
   <a href="#license">License</a>
 </p>
 
@@ -68,7 +68,7 @@ pip install -r requirements.txt
 ```
 
 **Note: If dlib is not installed then you can install the file 
-"dlib-19.22.99-cp39-cp39-win_amd64.whl" which is attached with the code file**
+"dlib-19.22.99-cp39-cp39-win_amd64.whl" which is attached with the code file** [download](https://github.com/csejay3chauhan/microsodt-engage-22-project/blob/master/dlib-19.22.99-cp39-cp39-win_amd64.whl)
 ```python
 pip install dlib-19.22.99-cp39-cp39-win_amd64.whl
 ```
@@ -110,9 +110,9 @@ This software uses the following open source packages:
 - Emojis are taken from [here](https://github.com/arvida/emoji-cheat-sheet.com)
 - [highlight.js](https://highlightjs.org/)
 
-## Related
+## Portfolio
 
-[markdownify-web](https://github.com/amitmerchant1990/markdownify-web) - Web version of Markdownify
+[Jay's Portfolio](https://jay3chauhan.github.io/Portfolio/) - Jay Chauhan Computer Science & Eng student 
 
 ## Support
 
@@ -135,7 +135,7 @@ MIT
 
 ---
 
-> [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp;
-> GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
-> Twitter [@amit_merchant](https://twitter.com/amit_merchant)
+> [Website](https://jay3chauhan.github.io/Portfolio/) &nbsp;&middot;&nbsp;
+> GitHub [@jay3chauhan](https://github.com/jay3chauhan) &nbsp;&middot;&nbsp;
+> Twitter [@jay3_chauhan](https://twitter.com/jay3chauhan)
 
