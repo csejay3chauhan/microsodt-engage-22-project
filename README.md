@@ -8,7 +8,7 @@
   <br>
 </h1>
 
-<h4 align="center">A minimal Markdown Editor desktop app built on top of <a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
+<h4 align="center">A Smart Face Recognitions Attendance Full-Stack Web App  <a href="https://youtu.be/1ZzRX6haBOc" target="_blank">DEMO </a>.</h4>
 
 <p align="center">
   <a href="https://badge.fury.io/js/electron-markdownify">
@@ -25,6 +25,7 @@
 </p>
 
 <p align="center">
+  <a href="About">About</a> •
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#download">Download</a> •
@@ -34,6 +35,13 @@
 </p>
 
 ![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
+
+## About
+* Django web framework is used for the development of the whole web app. OpenCv and face_recognition API's were used for the development of Face Recognizzer. The Face Recognizer can detect multiple face at a time and mark their attendance into Database.
+
+* Note: When we start taking attendance through the portal, sometime it might be taking time due to Opencv and Face recognition.
+
+* Note: Python version 3.9.13 is use for this project. And dlib package required for installation of face_recognition api is also uploaded
 
 ## Key Features
 
