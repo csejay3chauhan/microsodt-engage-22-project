@@ -57,24 +57,33 @@
 
 ## How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+To run the web app on your local computer, install the required libraries ([requirements.txt]).
 
-```bash
-# Clone this repository
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
-
-# Go into the repository
-$ cd electron-markdownify
-
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
+```python
+pip install -r requirements.txt
 ```
 
-> **Note**
-> If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+**Note: If dlib is not installed then you can install the file 
+"dlib-19.22.99-cp39-cp39-win_amd64.whl" which is attached with the code file**
+```python
+pip install dlib-19.22.99-cp39-cp39-win_amd64.whl
+```
+
+and run the following command in the command prompt:
+```python
+python manage.py runserver
+``` 
+
+**To create your own credential for logging into the application and also access database**
+```python
+python manage.py createsuperuser
+```
+
+After running the above command and creating the credentials, you can use the same credentials for logging in.
+
+**Note: Use Chrome, Mozilla Firefox for best view use 80% screen resolution.**
+
+
 
 
 ## Download
