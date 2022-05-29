@@ -1,4 +1,5 @@
 {% extends 'attendence_sys/main.html' %}
+
 {% block content %}
 {% for message in messages %}
         {% if message.tags == 'error' %}
@@ -22,6 +23,8 @@
 					{{myFilter.form}}
 
 		    		<button class="btn btn-primary" type="submit">Search</button>
+					<a href="{% url 'Download' %}" class="btn btn-primary" ><font color="#fff">Download PDF</font></a>
+					<a href="{% url 'csv' %}" class="btn btn-primary"><font color="#fff">Download CSV</font></a>
 				</form>
 			</center>
 		</div>

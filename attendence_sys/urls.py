@@ -1,6 +1,8 @@
 from django.urls import path
-
+from django.contrib import admin
 from . import views
+
+
 
 urlpatterns = [
     path('', views.home, name='home'),
@@ -12,7 +14,8 @@ urlpatterns = [
     path('updateStudentRedirect/', views.updateStudentRedirect,
          name='updateStudentRedirect'),
     path('updateStudent/', views.updateStudent, name='updateStudent'),
+    path('Download/', views.venue_pdf, name='Download'),
+    path('csv/', views.venue_csv, name='csv'),
     path('attendence/', views.takeAttendence, name='attendence'),
-    # path('video_feed/', views.videoFeed, name='video_feed'),
-    # path('videoFeed/', views.getVideo, name='videoFeed'),
+   
 ]

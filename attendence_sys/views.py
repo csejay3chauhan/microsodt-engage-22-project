@@ -1,6 +1,8 @@
+from django import views
 from django.shortcuts import render, redirect
 from django.http import HttpResponse, StreamingHttpResponse
-
+from django.views import View
+from gtts import gTTS
 from django.contrib import messages
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import authenticate, login, logout
@@ -9,13 +11,20 @@ from django.contrib.auth.decorators import login_required
 from .forms import *
 from .models import Student, Attendence
 from .filters import AttendenceFilter
+import pyttsx3 as textSpeach
 
-# from django.views.decorators import gzip
-
+import csv
 from .recognizer import Recognizer
 from datetime import date
 
 
+from django.http import FileResponse
+import io
+from reportlab.pdfgen import canvas
+from reportlab.lib.units import inch
+from reportlab.lib.pagesizes import letter
+
+engine = textSpeach.init()
 @login_required(login_url='login')
 def home(request):
     studentForm = CreateStudentForm()
@@ -58,7 +67,7 @@ def loginPage(request):
             return redirect('home')
         else:
             messages.info(request, 'Username or Password is incorrect')
-
+            
     context = {}
     return render(request, 'attendence_sys/login.html', context)
 
@@ -99,6 +108,11 @@ def updateStudent(request):
             if updateStudentForm.is_valid():
                 updateStudentForm.save()
                 messages.success(request, 'Updation Success')
+                
+                statment = str('Updation Success')
+                engine.say(statment)
+                engine.runAndWait()
+                
                 return redirect('home')
         except:
             messages.error(request, 'Updation Unsucessfull')
@@ -118,6 +132,12 @@ def takeAttendence(request):
         }
         if Attendence.objects.filter(date=str(date.today()), branch=details['branch'], year=details['year'], section=details['section'], period=details['period']).count() != 0:
             messages.error(request, "Attendence already recorded.")
+            statment = str('Attendence already recorded')
+            voices = engine.getProperty('voices')
+            engine.setProperty('voice', voices[1].id)
+            engine.say(statment)
+            #engine.runAndWait()
+            engine.stop()
             return redirect('home')
         else:
             students = Student.objects.filter(
@@ -134,6 +154,11 @@ def takeAttendence(request):
                                             section=details['section'],
                                             status='Present')
                     attendence.save()
+                    voices = engine.getProperty('voices')
+                    engine.setProperty('voice', voices[1].id)
+                    statment = str('attendence saved Thank You')
+                    engine.say(statment)
+                    engine.runAndWait()
                 else:
                     attendence = Attendence(Faculty_Name=request.user.faculty,
                                             Student_ID=str(
@@ -146,10 +171,10 @@ def takeAttendence(request):
             attendences = Attendence.objects.filter(date=str(date.today()), branch=details['branch'], year=details['year'], section=details['section'], period=details['period'])
             context = {"attendences": attendences, "ta": True}
             messages.success(request, "Attendence taking Success")
+            
             return render(request, 'attendence_sys/attendence.html', context)
     context = {}
     return render(request, 'attendence_sys/home.html', context)
-
 
 def searchAttendence(request):
     attendences = Attendence.objects.all()
@@ -165,32 +190,49 @@ def facultyProfile(request):
     context = {'form': form}
     return render(request, 'attendence_sys/facultyForm.html', context)
 
+def venue_pdf(request):
+    	# Create Bytestream buffer
+	buf = io.BytesIO()
+	# Create a canvas
+	c = canvas.Canvas(buf, pagesize=letter, bottomup=0)
+	# Create a text object
+	textob = c.beginText()
+	textob.setTextOrigin(inch, inch)
+	textob.setFont("Helvetica", 14)
 
-# class VideoCamera(object):
-#     def __init__(self):
-#         self.video = cv2.VideoCapture(0)
-#     def __del__(self):
-#         self.video.release()
+	# Add some lines of text
+	lines = [
+		"This is line 1",
+		"This is line 2",
+		"This is line 3",
+	    ]
+	# Loop
+	for line in lines:
+		textob.textLine(line)
 
-#     def get_frame(self):
-#         ret,image = self.video.read()
-#         ret,jpeg = cv2.imencode('.jpg',image)
-#         return jpeg.tobytes()
+	# Finish Up
+	c.drawText(textob)
+	c.showPage()
+	c.save()
+	buf.seek(0)
+
+	# Return something
+	return FileResponse(buf, as_attachment=True, filename='Attendence.pdf')
 
 
-# def gen(camera):
-#     while True:
-#         frame = camera.get_frame()
-#         yield(b'--frame\r\n'
-#         b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n\r\n')
+def venue_csv(request):
+  
+    response=HttpResponse(content_type='text/csv')
+    response['Content-Disposition']='attachment; filename=csv' + '.csv'
 
+    writer =csv.writer(response)
+    writer.writerow(['DATE ','YEAR','SECTION','PERIOD','BRANCH','NAME'])
+    #branch = request.POST['branch']
+    
+    attendences = Attendence.objects.all()
+    myFilter = AttendenceFilter(request.GET, queryset=attendences)
+    attendences = myFilter.qs
+    writer.writerow(attendences)
+    
+    return response
 
-# @gzip.gzip_page
-# def videoFeed(request):
-#     try:
-#         return StreamingHttpResponse(gen(VideoCamera()),content_type="multipart/x-mixed-replace;boundary=frame")
-#     except:
-#         print("aborted")
-
-# def getVideo(request):
-#     return render(request, 'attendence_sys/videoFeed.html')
