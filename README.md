@@ -37,18 +37,22 @@
 
 ## Key Features
 
-* LivePreview - Make changes, See changes
-  - Instantly see what your Markdown documents look like in HTML as you create them.
-* Sync Scrolling
-  - While you type, LivePreview will automatically scroll to the current location you're editing.
-* GitHub Flavored Markdown  
-* Syntax highlighting
-* [KaTeX](https://khan.github.io/KaTeX/) Support
-* Dark/Light mode
-* Toolbar for basic Markdown formatting
-* Supports multiple cursors
-* Save the Markdown preview as PDF
-* Emoji support in preview :tada:
+* The Web app consume very less memory
+* The web app very good accuracy 
+* The App has A login/singup page so it can be used only authorised people 
+* Its run very smothly & it is also good working on less capacity devices (tested)
+* it response time is very low it is so fast .
+* The attendance can be filter or search by the teacher & HOD
+* The searching has a many options ton get a perfect result.
+* The Audio message is included.it is soft voice and notify us.
+* The attendance is export/Download in the CSV file.
+* The attendance is also Download in PDF form.
+* if the attendance is once taken in same student then again not mark . it will mark in next day/next lecture.
+* Easy in the modification
+* if Unknown/not registered person take the attendance it show the red mark and it will not display the attendance.
+* No limits at image Size .
+* it the search section we can search attendance in multiple ways .
+ 
 * App will keep alive in tray for quick usage
 * Full screen mode
   - Write distraction free.
