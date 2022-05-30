@@ -143,10 +143,10 @@ This WebApp uses the following Open source packages:
 	<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
 </a>
 
-## You may also like...
+## Contact Me Or Follow ME
 
  <a target="_blank" href="">
-  <img align="left" alt="LinkdeIN" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" /> Connect On Linkdin
+  <img align="left" alt="LinkdeIN" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" /> 
 </a>
 <a target="_blank" href="https://api.whatsapp.com/send?phone=9408254415">
   <img align="left" alt="Whatsapp" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/whatsapp.svg" />
