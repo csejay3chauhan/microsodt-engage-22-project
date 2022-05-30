@@ -80,7 +80,8 @@ python manage.py createsuperuser
 
 After running the above command and creating the credentials, you can use the same credentials for logging in.
 
-**Note: Use Chrome, Mozilla Firefox for best view use 80% screen resolution.**
+**Note: Use <img src="https://img.shields.io/badge/Microsoft_Edge-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white"> 
+, <img src="https://img.shields.io/badge/Firefox_Browser-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white"> , <img src="https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white">  for best view use 80% screen resolution.**
 
 
 
@@ -151,7 +152,7 @@ This WebApp uses the following Open source packages:
 
 MIT
 
----
+
 
 > [Website](https://jay3chauhan.github.io/Portfolio/) &nbsp;&middot;&nbsp;
 > GitHub [@jay3chauhan](https://github.com/jay3chauhan) &nbsp;&middot;&nbsp;
