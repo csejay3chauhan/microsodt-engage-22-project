@@ -20,7 +20,7 @@
   <a href="#download">Download</a> •
   <a href="#Packages">Credits</a> •
   <a href="#Portfolio">Portfolio</a> •
-  <a href="#license">License</a>
+  <a href="#Contact Me">Contact Me</a>
 </p>
 
 <p align="center">
@@ -143,22 +143,17 @@ This WebApp uses the following Open source packages:
 	<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
 </a>
 
-## Contact Me Or Follow ME
+## Contact Me
 
-<h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://twitter.com/jay3_chauhan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="jay3_chauhan" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/jay-chauhan-5a65921ba/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="jay-chauhan-5a65921ba/" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/17736926/jay-chauhan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="17736926/jay-chauhan" height="30" width="40" /></a>
-<a href="https://instagram.com/jay3_chauhan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="jay3_chauhan" height="30" width="40" /></a>
-<a href="https://medium.com/@cjay32338" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@cjay32338" height="30" width="40" /></a>
-<a href="https://www.codechef.com/users/jay3_chauhan" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="jay3_chauhan" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/cjay32338" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="cjay32338" height="30" width="40" /></a>
+<a href="https://twitter.com/jay3_chauhan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="jay3_chauhan" height="30" width="40" />    </a> | 
+<a href="https://linkedin.com/in/jay-chauhan-5a65921ba/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="jay-chauhan-5a65921ba/" height="30" width="40" />  </a> |
+<a href="https://stackoverflow.com/users/17736926/jay-chauhan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="17736926/jay-chauhan" height="30" width="40" /></a> |
+<a href="https://instagram.com/jay3_chauhan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="jay3_chauhan" height="30" width="40" /></a> |
+<a href="https://medium.com/@cjay32338" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@cjay32338" height="30" width="40" /></a>|
+<a href="https://www.codechef.com/users/jay3_chauhan" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="jay3_chauhan" height="30" width="40" /></a>|
+<a href="https://www.hackerrank.com/cjay32338" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="cjay32338" height="30" width="40" /></a>|
 <a href="https://auth.geeksforgeeks.org/user/cjay32338" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="cjay32338" height="30" width="40" /></a>
 </p>
 
-
-> [Website](https://jay3chauhan.github.io/Portfolio/) &nbsp;&middot;&nbsp;
-> GitHub [@jay3chauhan](https://github.com/jay3chauhan) &nbsp;&middot;&nbsp;
-> Twitter [@jay3_chauhan](https://twitter.com/jay3chauhan)
 
