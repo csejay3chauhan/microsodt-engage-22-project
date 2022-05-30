@@ -38,27 +38,22 @@
 
 ## Key Features
 
-* The Web app consume very less memory
-* The web app very good accuracy 
-* The App has A login/singup page so it can be used only authorised people 
-* Its run very smothly & it is also good working on less capacity devices (tested)
-* it response time is very low it is so fast .
-* The attendance can be filter or search by the teacher & HOD
-* The searching has a many options ton get a perfect result.
-* The Audio message is included.it is soft voice and notify us.
-* The attendance is export/Download in the CSV file.
-* The attendance is also Download in PDF form.
-* if the attendance is once taken in same student then again not mark . it will mark in next day/next lecture.
-* Easy in the modification
-* if Unknown/not registered person take the attendance it show the red mark and it will not display the attendance.
-* No limits at image Size .
-* it the search section we can search attendance in multiple ways .
+- The Web app consume very less memory
+- The web app very good accuracy 
+- The App has A login/singup page so it can be used only authorised people 
+- Its run very smothly & it is also good working on less capacity devices (tested)
+- it response time is very low it is so fast .
+- The attendance can be filter or search by the teacher & HOD
+- The searching has a many options ton get a perfect result.
+- The Audio message is included.it is soft voice and notify us.
+- The attendance is export/Download in the CSV file.
+- The attendance is also Download in PDF form.
+- if the attendance is once taken in same student then again not mark . it will mark in next day/next lecture.
+- Easy in the modification
+- if Unknown/not registered person take the attendance it show the red mark and it will not display the attendance.
+- No limits at image Size .
+- it the search section we can search attendance in multiple ways .
  
-* App will keep alive in tray for quick usage
-* Full screen mode
-  - Write distraction free.
-* Cross platform
-  - Windows, macOS and Linux ready.
 
 ## How To Use
 
@@ -93,7 +88,16 @@ After running the above command and creating the credentials, you can use the sa
 
 ## Download
 
-You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) the latest installable version of Markdownify for Windows, macOS and Linux.
+- To Clone the Repo
+```
+$ git clone https://github.com/csejay3chauhan/microsodt-engage-22-project.git
+```
+- [Download](https://drive.google.com/drive/folders/1npXtn7KT_cWE4gXdbDIrHVz8hqa1Cia-) Screenshots of the project
+- [Download](https://drive.google.com/drive/folders/159pOGSotTmN7HTLe4NfDgUQy9I-9p9Bm) Flowcharts & Diagram
+- [Download](https://drive.google.com/drive/folders/1IG8ILKySj9dhp2jKQ7lxauh48haLgkco) Demo Video
+- [Download](https://drive.google.com/drive/folders/1IG8ILKySj9dhp2jKQ7lxauh48haLgkco) PPT Download
+- [Download](https://github.com/csejay3chauhan/microsodt-engage-22-project.git) This Project by clicking Download
+
 
 ## Emailware
 
