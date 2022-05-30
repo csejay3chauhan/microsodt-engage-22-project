@@ -20,6 +20,7 @@
   <a href="#download">Download</a> •
   <a href="#Packages">Credits</a> •
   <a href="#Portfolio">Portfolio</a> •
+  <a href="#Account">Github Main Acc</a> •
   <a href="#Contact Me">Contact Me</a>
 </p>
 
@@ -133,7 +134,8 @@ This WebApp uses the following Open source packages:
 
 [Jay's Portfolio](https://jay3chauhan.github.io/Portfolio/) - Jay Chauhan Computer Science & Eng student 
 
-## Support
+## Account
+- [Github Account](https://github.com/csejay3chauhan/Jay3Chauhan) - Main & Active Github Account 
 
 ## Contact Me
 
