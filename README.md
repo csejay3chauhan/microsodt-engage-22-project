@@ -145,23 +145,17 @@ This WebApp uses the following Open source packages:
 
 ## Contact Me Or Follow ME
 
- <a target="_blank" href="">
-  <img align="left" alt="LinkdeIN" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" /> 
-</a>
-<a target="_blank" href="https://api.whatsapp.com/send?phone=9408254415">
-  <img align="left" alt="Whatsapp" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/whatsapp.svg" />
-</a>
-<a target="_blank" href="https://www.instagram.com/jay3_chauhan/">
-  <img align="left" alt="Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />
-</a>
-<a target="_blank" href="mailto:csejaychauhan@gmail.com">
-  <img align="left" alt="Gmail" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" />
-</a>
-
-## License
-
-MIT
-
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://twitter.com/jay3_chauhan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="jay3_chauhan" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/jay-chauhan-5a65921ba/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="jay-chauhan-5a65921ba/" height="30" width="40" /></a>
+<a href="https://stackoverflow.com/users/17736926/jay-chauhan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="17736926/jay-chauhan" height="30" width="40" /></a>
+<a href="https://instagram.com/jay3_chauhan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="jay3_chauhan" height="30" width="40" /></a>
+<a href="https://medium.com/@cjay32338" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@cjay32338" height="30" width="40" /></a>
+<a href="https://www.codechef.com/users/jay3_chauhan" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="jay3_chauhan" height="30" width="40" /></a>
+<a href="https://www.hackerrank.com/cjay32338" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="cjay32338" height="30" width="40" /></a>
+<a href="https://auth.geeksforgeeks.org/user/cjay32338" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="cjay32338" height="30" width="40" /></a>
+</p>
 
 
 > [Website](https://jay3chauhan.github.io/Portfolio/) &nbsp;&middot;&nbsp;
