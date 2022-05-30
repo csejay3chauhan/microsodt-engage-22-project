@@ -18,7 +18,7 @@
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#download">Download</a> •
-  <a href="#credits">Credits</a> •
+  <a href="#Packages">Credits</a> •
   <a href="#Portfolio">Portfolio</a> •
   <a href="#license">License</a>
 </p>
@@ -30,11 +30,10 @@
 
 
 ## About
-* Django web framework is used for the development of the whole web app. OpenCv and face_recognition API's were used for the development of Face Recognizzer. The Face Recognizer can detect multiple face at a time and mark their attendance into Database.
-
-* Note: When we start taking attendance through the portal, sometime it might be taking time due to Opencv and Face recognition.
-
-* Note: Python version 3.9.13 is use for this project. And dlib package required for installation of face_recognition api is also uploaded
+* Django web framework is used for the development of the whole web app. 
+* OpenCv and face_recognition API's were used for the development of Face Recognizzer. 
+* The Face Recognizer can detect multiple face at a time and mark their attendance into Database.
+* Note: Python version 3.9.13 is use for this Project And dlib package required for installation of face_recognition api is also uploaded
 
 ## Key Features
 
@@ -103,17 +102,31 @@ $ git clone https://github.com/csejay3chauhan/microsodt-engage-22-project.git
 
 Markdownify is an [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this app or it has helped you in any way, I'd like you send me an email at <bullredeyes@gmail.com> about anything you'd want to say about this software. I'd really appreciate it!
 
-## Credits
+## Packages
 
-This software uses the following open source packages:
+This WebApp uses the following Open source packages:
 
-- [Electron](http://electron.atom.io/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
-- [showdown](http://showdownjs.github.io/showdown/)
-- [CodeMirror](http://codemirror.net/)
-- Emojis are taken from [here](https://github.com/arvida/emoji-cheat-sheet.com)
-- [highlight.js](https://highlightjs.org/)
+- Python
+- Django
+- Opencv-contrib-python
+- OpenCv
+- matplotlib
+- Face_recogniton
+- pillow
+- ace-recognition-models
+- dlib
+- cmake
+- certifi
+- numpy
+- pandas
+- pipreqs
+- requests
+- sqlparse
+- pyttsx3
+- reportlab
+- datetime
+- os
+
 
 ## Portfolio
 
