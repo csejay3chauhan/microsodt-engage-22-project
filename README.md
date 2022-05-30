@@ -34,6 +34,18 @@
 * Django web framework is used for the development of the whole web app. 
 * OpenCv and face_recognition API's were used for the development of Face Recognizzer. 
 * The Face Recognizer can detect multiple face at a time and mark their attendance into Database.
+* The Faculty can also search for attendance of a student using Multiparameter Search, by specifying the student ID, date of attendance, period of Attendance.
+* The credentials for the Faculty are provided by the superuser who has access to the whole database. 
+* Only the superuser can update the attendance of a student.
+* 
+## FACE RECOGANITON BASE SMART ATTENDANCE SYSTEM
+
+* The project follows three-layered architecture, which is described below.
+  - Presentation Layer : This layer is responsible for the user interface. All the components that users see and interact with within the application are in this layer.
+
+  - Application Layer : Application layer controls the overall functionality of the system. Functionality such as logging into the system, facial detection, and recognition is all done in this layer.
+  - Data Layer :  In this layer, Data and Information are stored and retrieved in the database. The names, images of students as datasets, teacheers are stored in the database. Once the face is matched, marking of attendance in the database. 
+  - <img src="https://ibb.co/j58ZdTy"> 
 * Note: Python version 3.9.13 is use for this Project And dlib package required for installation of face_recognition api is also uploaded
 
 ## Key Features
