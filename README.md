@@ -37,7 +37,7 @@
 * The Faculty can also search for attendance of a student using Multiparameter Search, by specifying the student ID, date of attendance, period of Attendance.
 * The credentials for the Faculty are provided by the superuser who has access to the whole database. 
 * Only the superuser can update the attendance of a student.
-* 
+ 
 ## FACE RECOGANITON BASE SMART ATTENDANCE SYSTEM
 
 * The project follows three-layered architecture, which is described below.
@@ -123,10 +123,6 @@ $ git clone https://github.com/csejay3chauhan/microsodt-engage-22-project.git
 - [Download](https://drive.google.com/drive/folders/1IG8ILKySj9dhp2jKQ7lxauh48haLgkco) PPT Download
 - [Download](https://github.com/csejay3chauhan/microsodt-engage-22-project.git) This Project by clicking Download
 
-
-## Emailware
-
-Markdownify is an [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this app or it has helped you in any way, I'd like you send me an email at <bullredeyes@gmail.com> about anything you'd want to say about this software. I'd really appreciate it!
 
 ## Packages
 
