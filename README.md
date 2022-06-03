@@ -46,7 +46,7 @@
   - Application Layer : Application layer controls the overall functionality of the system. Functionality such as logging into the system, facial detection, and recognition is all done in this layer.
   - Data Layer :  In this layer, Data and Information are stored and retrieved in the database. The names, images of students as datasets, teacheers are stored in the database. Once the face is matched, marking of attendance in the database. 
  <img src="https://github.com/csejay3chauhan/microsodt-engage-22-project/blob/master/static/images/layers.png" witdh="90% "> 
-* Note: Python version 3.9.13 is use for this Project And dlib package required for installation of face_recognition api is also uploaded
+* Note: Python version 3.10.4 is use for this Project And dlib package required for installation of face_recognition api is also uploaded
 
 ## Key Features
 
@@ -67,7 +67,7 @@
 - it the search section we can search attendance in multiple ways .
  
 
-## How To Use
+## How To Use/Run
 
 To run the web app on your local computer, install the required libraries ([requirements.txt]).
 
