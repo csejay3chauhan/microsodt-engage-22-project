@@ -37,7 +37,7 @@
 * The Faculty can also search for attendance of a student using Multiparameter Search, by specifying the student ID, date of attendance, period of Attendance.
 * The credentials for the Faculty are provided by the superuser who has access to the whole database. 
 * Only the superuser can update the attendance of a student.
-* 
+ 
 ## FACE RECOGANITON BASE SMART ATTENDANCE SYSTEM
 
 * The project follows three-layered architecture, which is described below.
@@ -46,7 +46,7 @@
   - Application Layer : Application layer controls the overall functionality of the system. Functionality such as logging into the system, facial detection, and recognition is all done in this layer.
   - Data Layer :  In this layer, Data and Information are stored and retrieved in the database. The names, images of students as datasets, teacheers are stored in the database. Once the face is matched, marking of attendance in the database. 
  <img src="https://github.com/csejay3chauhan/microsodt-engage-22-project/blob/master/static/images/layers.png" witdh="90% "> 
-* Note: Python version 3.9.13 is use for this Project And dlib package required for installation of face_recognition api is also uploaded
+* Note: Python version 3.10.4 is use for this Project And dlib package required for installation of face_recognition api is also uploaded
 
 ## Key Features
 
@@ -67,7 +67,7 @@
 - it the search section we can search attendance in multiple ways .
  
 
-## How To Use
+## How To Use/Run
 
 To run the web app on your local computer, install the required libraries ([requirements.txt]).
 
@@ -86,12 +86,24 @@ and run the following command in the command prompt:
 python manage.py runserver
 ``` 
 
-**To create your own credential for logging into the application and also access database**
+**To create your own credential for logging into the application and also access database this for next step**
 ```python
 python manage.py createsuperuser
 ```
-
 After running the above command and creating the credentials, you can use the same credentials for logging in.
+
+**Open the login page**
+```python
+http://127.0.0.1:8000/login/
+```
+**Then fill the details (this is Defalt if u didint created then use it but better option is to use your own Which is previously created)**
+
+```python
+Username: admin
+Password: admin
+```
+
+
 
 **Note: Use <img src="https://img.shields.io/badge/Microsoft_Edge-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white"> 
 , <img src="https://img.shields.io/badge/Firefox_Browser-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white"> , <img src="https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white">  for best view use 80% screen resolution.**
@@ -111,10 +123,6 @@ $ git clone https://github.com/csejay3chauhan/microsodt-engage-22-project.git
 - [Download](https://drive.google.com/drive/folders/1IG8ILKySj9dhp2jKQ7lxauh48haLgkco) PPT Download
 - [Download](https://github.com/csejay3chauhan/microsodt-engage-22-project.git) This Project by clicking Download
 
-
-## Emailware
-
-Markdownify is an [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this app or it has helped you in any way, I'd like you send me an email at <bullredeyes@gmail.com> about anything you'd want to say about this software. I'd really appreciate it!
 
 ## Packages
 
